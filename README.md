@@ -16,12 +16,13 @@ To determine the progression of Huntington’s Disease (HD) in a well-defined sa
 ## DATASET
 ![handling missing data](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Handling%20Missing%20Entries.png)<br>
 The above illustration highlights how the data wrangling/preparation process led to the use of only the first 6 visit records of 866 participants.
-<br>![SMOTE]()
+<br>![SMOTE](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/y%20distribution%20before%20and%20after%20smote.png)
+The above is the result after the application of SMOTE algorithm.
 
 ## EXPERIMENTAL APPROACH
 ![experimental flow-chart](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Experimental%20design.png?raw=true) 
-<br>The above diagram is a flow-chart representation of the entire experimental process, where each arrow indicates progression from one step/process to the next.<br>
-The target labels (five classes of BMI) can also be seen.
+<br>The above diagram is a flow-chart representation of the research project, where each arrow indicates progression from one step/process to the next.<br>
+The target labels (five classes of BMI) can also be seen. <br>The dataset was read from csv files and then cleaned and formatted in preparation for EDA. Some relevant features were engineered from existing variables before some pre-determined features were selected following expert knowledge and research. Train-test split was done using the ratio of 2:1 and minority classes were randomly oversampled to tackle the imbalanced distribution of the outcome variable. Uniformly distributed training set was then used to train both ML algorithms to predict BMI class labels (0 – 4) at fifth follow-up. Finally, both model performances were evaluated and compared in terms of accuracy, precision, recall, and f1-score.
 
 ## RESULTS
 ![model evaluation](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/model%20performance%20evaluation.png)
