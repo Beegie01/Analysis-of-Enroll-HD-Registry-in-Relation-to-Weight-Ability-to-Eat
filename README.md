@@ -16,6 +16,7 @@ To determine the progression of Huntington’s Disease (HD) in a well-defined sa
 ## DATASET
 ![handling missing data](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Handling%20Missing%20Entries.png)<br>
 The above illustration highlights how the data wrangling/preparation process led to the use of only the first 6 visit records of 866 participants.
+<br>![SMOTE]()
 
 ## EXPERIMENTAL APPROACH
 ![experimental flow-chart](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Experimental%20design.png?raw=true) 
@@ -26,7 +27,7 @@ The target labels (five classes of BMI) can also be seen.
 ![model evaluation](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/model%20performance%20evaluation.png)
 <br>As shown above, after training and tuning of hyperparameters, the logit model had 57% test accuracy at predicting the outcome, while the SVM classifier showed its superiority with a better accuracy of 62%. 
 <br>The SVM classifier also outperformed the logit model in terms of predicting the normal BMI class, while the logit model showed better f1-score at predicting the underweight class. However, both models had similar performance at predicting all other BMI classes (i.e., overweight, obese, and severely obese).
-<br><br>![UHDRS scores]()
+<br><br>![UHDRS scores](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/UHDRS%20scores%20per%20BMI%20class.png)
 
 ## DISCUSSION
 Besides the clear association between baseline BMI and the outcome variable, this result supports (Ghazaleh et al., 2021; Langbehn et al., 2019; Tabrizi et al., 2013) who found that CAP score and CAG repeat length are among the most important factors for predicting HD progression. Other top-ranked predictors such as cross-sectional motor impairment and behaviour_score (higher in manifest than controls, p<0.001) have a negative correlation with the outcome. While cognitive_score, tfcscore, and feedself (less in manifest than controls, p<0.001) each have positive correlation with the outcome variable. Interestingly, baseline age and cross-sectional chorea, and gender had no significant correlation with the outcome.
