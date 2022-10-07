@@ -22,4 +22,5 @@ The target labels (five classes of BMI) can also be seen.
 
 ## RESULTS
 ![model evaluation](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/model%20performance%20evaluation.png)
-<br>As shown above, after training and tuning both the logit & SVM models to predict fifth follow-up BMI classes, the SVM classifier showed better accuracy while the logit model showed better f1-score at predicting the underweight class.
+<br>As shown above, after training and tuning both the logit & SVM models to predict fifth follow-up BMI classes, the SVM classifier showed better accuracy.
+<br>The SVM classifier also outperformed the logit model in terms of predicting the normal BMI class, while the logit model showed better f1-score at predicting the underweight class. However, both models had similar performance at predicting all other BMI classes (i.e., overweight, obese, and severely obese).
