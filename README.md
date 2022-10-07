@@ -19,3 +19,6 @@ The above illustration highlights how the data wrangling/preparation process led
 ![experimental flow-chart](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Experimental%20design.png?raw=true) 
 <br>The above diagram is a flow-chart representation of the entire experimental process, where each arrow indicates progression from one step/process to the next.<br>
 The target labels (five classes of BMI) can also be seen.
+
+## RESULTS
+
