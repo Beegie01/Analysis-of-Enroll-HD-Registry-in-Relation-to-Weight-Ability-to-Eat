@@ -12,7 +12,7 @@ To determine the progression of Huntington’s Disease (HD) in a well-defined sa
 Detailed version of this research can be [here](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Final%20Project%20Thesis.pdf)
 
 ## DATASET
-![handling missing data]()
+![handling missing data](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Handling%20Missing%20Entries.png)
 
 ## EXPERIMENTAL APPROACH
 ![experimental flow-chart](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Experimental%20design.png?raw=true) The above diagram is a flow-chart representation of the entire experimental process, where each arrow indicates progression from one step/process to the next.
