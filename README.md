@@ -13,7 +13,7 @@ Detailed version of this research can be [here](https://github.com/Beegie01/Supe
 
 ## DATASET
 ![handling missing data](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Handling%20Missing%20Entries.png)<br>
-The above illustration highlights how the data wrangling/preparation process led to using the first 6 visit records of 866 participants.
+The above illustration highlights how the data wrangling/preparation process led to the use of only the first 6 visit records of 866 participants.
 
 ## EXPERIMENTAL APPROACH
 ![experimental flow-chart](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Experimental%20design.png?raw=true) 
