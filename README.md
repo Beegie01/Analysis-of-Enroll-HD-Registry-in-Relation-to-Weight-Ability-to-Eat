@@ -17,7 +17,7 @@ To determine the progression of Huntington’s Disease (HD) in a well-defined sa
 ![handling missing data](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Handling%20Missing%20Entries.png)<br>
 The above illustration highlights how the data wrangling/preparation process led to the use of only the first 6 visit records of 866 participants.
 <br><br>![SMOTE](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/y%20distribution%20before%20and%20after%20smote.png)
-The above is the result after the application of SMOTE algorithm.
+The above shows the distribution of BMI at fifth follow-up after applying SMOTE algorithm to the dataset.
 
 ## EXPERIMENTAL APPROACH
 ![experimental flow-chart](https://github.com/Beegie01/Supervised-Learning-Analysis-of-Enroll-HD-Features-in-Relation-to-BMI-in-the-Manifest-Stage/blob/main/Experimental%20design.png?raw=true) 
