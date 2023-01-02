@@ -1,7 +1,7 @@
 # HUNTINGTON'S DISEASE (HD)
 
 ## Supervised Learning Analysis of the Enroll-HD Registry in Relation to Weight and Ability to Eat
-This study aims to use the Enroll-HD database to examine the relationship between the progression of HD-related symptoms and participants’ BMI.
+This study aims to analyze the relationship between BMI and other variables in one sample group (treatment) in comparison to another (control) using different supervised learning algorithms (logistic regression and support vector machine). Treatment samples comprised participants having manifest HD, and control were those without HD and no family history of the disorder. In the end, results of both algorithms were juxtaposed to identify the superior model based on their performance of this classification task.
 
 ## AIMS
 To determine the relationship between Huntington’s disease (HD) progression (as measured within the Enroll-HD registry) and BMI in persons with manifest HD.
